@@ -1,0 +1,32 @@
+/* Controla a altura das imagens do carrossel */
+.carousel-inner img {
+    height: 400px;  /* Define uma altura fixa para as imagens */
+    object-fit: contain;  /* Garante que a imagem preencha o espaço sem distorção */
+  }
+  
+  /* Personaliza as cores dos ícones de controle do carrossel */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;  /* Muda a cor do ícone de controle */
+    border-radius: 50%;  /* Adiciona um formato arredondado */
+    padding: 10px;  /* Adiciona um espaçamento ao redor do ícone */
+  }
+  
+  /* Personaliza o comportamento ao passar o mouse nos controles */
+  .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: gray;  /* Muda a cor dos controles quando o mouse passa */
+  }
+  
+  /* Ajusta o tamanho dos botões de controle */
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;  /* Altera a largura dos botões de controle */
+  }
+  
+  /* Personaliza os indicadores do carrossel */
+  .carousel-indicators [data-bs-target] {
+    background-color: black;  /* Cor dos pontos indicativos */
+  }
+  
+  /* Indicador ativo */
+  .carousel-indicators .active {
+    background-color: white;  /* Cor do ponto indicativo ativo */
+  }
